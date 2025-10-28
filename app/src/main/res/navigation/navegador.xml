@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegador"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.may.fragmentosdtc.inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_doble"
+            app:destination="@id/doble" />
+        <action
+            android:id="@+id/action_inicio_to_triple"
+            app:destination="@id/triple" />
+        <action
+            android:id="@+id/action_inicio_to_cuadruple"
+            app:destination="@id/cuadruple" />
+    </fragment>
+    <fragment
+        android:id="@+id/doble"
+        android:name="com.may.fragmentosdtc.doble"
+        android:label="fragment_doble"
+        tools:layout="@layout/fragment_doble" >
+        <action
+            android:id="@+id/action_doble_to_inicio"
+            app:destination="@id/inicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/triple"
+        android:name="com.may.fragmentosdtc.triple"
+        android:label="fragment_triple"
+        tools:layout="@layout/fragment_triple" >
+        <action
+            android:id="@+id/action_triple_to_inicio"
+            app:destination="@id/inicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/cuadruple"
+        android:name="com.may.fragmentosdtc.cuadruple"
+        android:label="fragment_cuadruple"
+        tools:layout="@layout/fragment_cuadruple" >
+        <action
+            android:id="@+id/action_cuadruple_to_inicio"
+            app:destination="@id/inicio" />
+    </fragment>
+</navigation>

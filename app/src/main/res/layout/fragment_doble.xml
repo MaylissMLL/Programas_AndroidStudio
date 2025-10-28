@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doble"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ponyo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doble"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="70dp"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginTop="100dp"
+        android:id="@+id/editaditoDoble"
+        android:textAlignment="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Doble"
+        android:id="@+id/CalcularD"
+        android:backgroundTint="#90CAF9"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textResultadoDoble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/RegresarD"
+        android:backgroundTint="#1A237E"
+        android:layout_marginTop="100dp"/>
+
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimacionesActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondoanimacionessnoopy">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp">
+        
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/ivejex"
+            android:src="@drawable/snoopyimage"/>
+
+        <Button
+            android:id="@+id/btejex"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="ejex"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/ivejey"
+            android:src="@drawable/snoopyimage"/>
+
+        <Button
+            android:id="@+id/btejey"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="ejey"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/ivalpha"
+            android:src="@drawable/snoopyimage"/>
+
+        <Button
+            android:id="@+id/btalpha"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="alpha"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/ivrotation"
+            android:src="@drawable/snoopyimage"/>
+
+        <Button
+            android:id="@+id/btrotation"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="rotation"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/ivtodo"
+            android:src="@drawable/snoopyimage"/>
+
+        <Button
+            android:id="@+id/bttodo"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="todo"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/ivbucle"
+            android:src="@drawable/snoopyimage"/>
+
+        <Button
+            android:id="@+id/btbucle"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="buclecito"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/ivscale"
+            android:src="@drawable/snoopyimage"/>
+
+        <Button
+            android:id="@+id/btscale"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="escala"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
