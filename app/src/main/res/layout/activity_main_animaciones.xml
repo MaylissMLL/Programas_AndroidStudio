@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".AnimacionesActivity"
     android:orientation="vertical"
-    android:background="@drawable/fondoanimacionessnoopy">
+    android:background="@drawable/fondoanimacionessnoopy"
+    android:gravity="center_horizontal">
     
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="150dp"
-        android:layout_marginLeft="30dp">
+        android:layout_marginTop="150dp">
         
         <ImageView
             android:layout_width="60dp"
@@ -35,8 +35,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="30dp">
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="60dp"
@@ -58,8 +57,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="30dp">
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="60dp"
@@ -81,8 +79,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="30dp">
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="60dp"
@@ -104,8 +101,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="30dp">
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="60dp"
@@ -127,8 +123,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="30dp">
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="60dp"
@@ -150,8 +145,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="30dp">
+        android:orientation="horizontal">
 
         <ImageView
             android:layout_width="60dp"
@@ -169,5 +163,14 @@
             android:backgroundTint="@color/white"/>
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/RegresarAnimaciones"
+        android:backgroundTint="#D20359"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"/>
 
 </LinearLayout>

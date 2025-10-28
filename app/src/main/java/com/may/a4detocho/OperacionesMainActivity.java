@@ -10,7 +10,7 @@ import androidx.fragment.app.FragmentTransaction;
 import com.google.android.material.button.MaterialButton;
 
 public class OperacionesMainActivity extends AppCompatActivity implements View.OnClickListener {
-    MaterialButton btnSuma, btnResta, btnMultiplicacion, btnDivision;
+    MaterialButton btnSuma, btnResta, btnMultiplicacion, btnDivision, regresar;
     FragmentTransaction transaction;
 
     suma oSuma;
@@ -34,6 +34,9 @@ public class OperacionesMainActivity extends AppCompatActivity implements View.O
         btnMultiplicacion.setOnClickListener(this);
         btnDivision.setOnClickListener(this);
 
+        regresar = findViewById(R.id.RegresarOperaciones);
+        regresar.setOnClickListener(this);
+
         oSuma = new suma();
         oResta = new resta();
         oMultiplicacion = new multiplicacion();
@@ -52,6 +55,9 @@ public class OperacionesMainActivity extends AppCompatActivity implements View.O
             transaction.replace(R.id.ContenedorFragmentos, oMultiplicacion);
         } else if (v.getId() == R.id.BtnDivision) {
             transaction.replace(R.id.ContenedorFragmentos, oDivision);
+        } else if (v.getId() == R.id.RegresarOperaciones) {
+            finish();
+            return;
         }
         transaction.commit();
     }

@@ -11,7 +11,7 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="650dp"
+        android:layout_height="700dp"
         android:id="@+id/ContenedorFragmentos">
     </FrameLayout>
 
@@ -61,5 +61,14 @@
             android:textSize="25dp"
             android:textStyle="bold"/>
     </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/RegresarOperaciones"
+        android:backgroundTint="#C2185B"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
 
 </LinearLayout>

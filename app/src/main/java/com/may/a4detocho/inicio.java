@@ -31,6 +31,9 @@ public class inicio extends Fragment implements View.OnClickListener {
 
         MaterialButton botoncitoCuadruple = view.findViewById(R.id.btnCuadruple);
         botoncitoCuadruple.setOnClickListener(this);
+
+        MaterialButton regresar = view.findViewById(R.id.RegresarTCP);
+        regresar.setOnClickListener(this);
     }
 
     @Override
@@ -41,6 +44,8 @@ public class inicio extends Fragment implements View.OnClickListener {
             Navigation.findNavController(v).navigate(R.id.triple);
         } else if (v.getId() == R.id.btnCuadruple) {
             Navigation.findNavController(v).navigate(R.id.cuadruple);
+        } else if (v.getId() == R.id.RegresarTCP) {
+            getActivity().finish();
         }
     }
 }

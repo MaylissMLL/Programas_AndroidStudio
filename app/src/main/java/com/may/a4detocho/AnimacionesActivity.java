@@ -21,6 +21,7 @@ public class AnimacionesActivity extends AppCompatActivity implements View.OnCli
 
     Button btejexx, btejeyy, btaplhaa, btrotationn;
     Button bttodoo, btbuclee, btscalee;
+    Button regresar;
 
     ObjectAnimator animatorx, animatory, animatoralpha, animatorrotation;
 
@@ -55,6 +56,9 @@ public class AnimacionesActivity extends AppCompatActivity implements View.OnCli
         bttodoo.setOnClickListener(this);
         btbuclee.setOnClickListener(this);
         btscalee.setOnClickListener(this);
+
+        regresar = findViewById(R.id.RegresarAnimaciones);
+        regresar.setOnClickListener(this);
         
     }
 
@@ -117,6 +121,9 @@ public class AnimacionesActivity extends AppCompatActivity implements View.OnCli
                                     ivscalee.startAnimation(animationscale);
 
                                 }
+                                    else if (cadenita.equals("Regresar")) {
+                                        finish();
+                                    }
 
     }
 }

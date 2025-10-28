@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/inicio"
-        android:name="com.may.fragmentosdtc.inicio"
+        android:name="com.may.a4detocho.inicio"
         android:label="fragment_inicio"
         tools:layout="@layout/fragment_inicio" >
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/doble"
-        android:name="com.may.fragmentosdtc.doble"
+        android:name="com.may.a4detocho.doble"
         android:label="fragment_doble"
         tools:layout="@layout/fragment_doble" >
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/triple"
-        android:name="com.may.fragmentosdtc.triple"
+        android:name="com.may.a4detocho.triple"
         android:label="fragment_triple"
         tools:layout="@layout/fragment_triple" >
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/cuadruple"
-        android:name="com.may.fragmentosdtc.cuadruple"
+        android:name="com.may.a4detocho.cuadruple"
         android:label="fragment_cuadruple"
         tools:layout="@layout/fragment_cuadruple" >
         <action

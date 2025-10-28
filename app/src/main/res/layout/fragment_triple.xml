@@ -23,6 +23,7 @@
         android:background="@color/white"
         android:layout_marginTop="100dp"
         android:id="@+id/editaditoTriple"
+        android:textColor="@color/black"
         android:textAlignment="center"/>
 
     <com.google.android.material.button.MaterialButton
@@ -49,6 +50,7 @@
         android:text="Regresar"
         android:id="@+id/RegresarT"
         android:backgroundTint="#388E3C"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"/>
 
 </LinearLayout>

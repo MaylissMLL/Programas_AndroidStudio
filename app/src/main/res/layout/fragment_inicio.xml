@@ -23,7 +23,8 @@
         android:layout_marginTop="50dp"
         android:backgroundTint="#33691E"
         android:id="@+id/btnDoble"
-        android:text="Doble"/>
+        android:text="Doble"
+        android:textColor="@color/white"/>
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="150dp"
@@ -31,7 +32,8 @@
         android:layout_marginTop="10dp"
         android:backgroundTint="#33691E"
         android:id="@+id/btnTriple"
-        android:text="Triple"/>
+        android:text="Triple"
+        android:textColor="@color/white"/>
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="150dp"
@@ -39,6 +41,16 @@
         android:layout_marginTop="10dp"
         android:backgroundTint="#33691E"
         android:id="@+id/btnCuadruple"
-        android:text="Cuádruple"/>
+        android:text="Cuádruple"
+        android:textColor="@color/white"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/RegresarTCP"
+        android:backgroundTint="#00838F"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
 
 </LinearLayout>
